@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Carpet -->
+
+    <StuffedFloors.FloorTypeDef Name="StuffedCarpetBase" ParentName="StuffedFloorsBase" Abstract="True">
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<burnedDef>BurnedCarpet</burnedDef>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+		<statBases>
+			<Flammability>0.27</Flammability>
+		</statBases>
+		<!-- <obsoletes>
+			<li>CarpetRed</li>
+			<li>CarpetGreen</li>
+			<li>CarpetBlue</li>
+			<li>CarpetCream</li>
+			<li>CarpetDark</li>
+		</obsoletes> -->
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedCarpetBasicBase" ParentName="StuffedCarpetBase" Abstract="True">
+        <statBases>
+            <Beauty>2</Beauty>
+            <WorkToBuild>800</WorkToBuild>
+        </statBases>
+        <stuffCost>5</stuffCost>
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedCarpetPrettyBase" ParentName="StuffedCarpetBase" Abstract="True">
+        <statBases>
+            <Beauty>4</Beauty>
+            <WorkToBuild>1600</WorkToBuild>
+        </statBases>
+        <stuffCost>8</stuffCost>
+    </StuffedFloors.FloorTypeDef>
+
+
+	
+
+	
+<!--Leather-->
+
+    <StuffedFloors.FloorTypeDef Name="StuffedLeatherBase" ParentName="StuffedFloorsBase" Abstract="True">
+		<burnedDef>BurnedLeatherFloor</burnedDef>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+		<statBases>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<obsoletes>
+		
+		</obsoletes>
+    </StuffedFloors.FloorTypeDef>
+	
+    <StuffedFloors.FloorTypeDef Name="StuffedLeatherBasicBase" ParentName="StuffedLeatherBase" Abstract="True">
+        <statBases>
+            <Beauty>1</Beauty>
+            <WorkToBuild>250</WorkToBuild>
+        </statBases>
+        <stuffCost>3</stuffCost>
+        
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedLeatherPrettyBase" ParentName="StuffedLeatherBase" Abstract="True">
+        <statBases>
+            <Beauty>3</Beauty>
+            <WorkToBuild>400</WorkToBuild>
+        </statBases>
+        <stuffCost>5</stuffCost>
+    </StuffedFloors.FloorTypeDef>
+	
+	
+	<!-- Burned -->
+	<TerrainDef ParentName="BurnedFloorBase">
+		<defName>BurnedLeatherFloor</defName>
+		<label>burned leather floor</label>
+		<renderPrecedence>251</renderPrecedence>
+		<description>Burned-out leather.</description>
+		<texturePath>Terrain/Surfaces/BurnedCarpet</texturePath>
+			<edgeType>FadeRough</edgeType>
+	</TerrainDef>
+</Defs>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   
+    <StuffedFloors.FloorTypeDef ParentName="StuffedLeatherBasicBase">
+      <defName>StuffedLeatherScrapLeather</defName>
+      <label>scrap leather</label>
+      <description>A leather floor crudely stiched together out of scraps.</description>
+        <texturePath>Floors/Leather/ScrapLeather</texturePath>
+    </StuffedFloors.FloorTypeDef>
+	
+	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherBasicBase">
+      <defName>StuffedLeatherPatchedLeather</defName>
+      <label>patched leather</label>
+      <description>A leather floor crudely stiched together out of scraps.</description>
+        <texturePath>Floors/Leather/PatchedLeather</texturePath>
+    </StuffedFloors.FloorTypeDef>
+	
+	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherPrettyBase">
+      <defName>StuffedLeatherSquareLeather</defName>
+      <label>square leather tiles</label>
+      <description>Leather cut into squares and sewn together as tile.</description>
+        <texturePath>Floors/Leather/SquareLeather</texturePath>
+    </StuffedFloors.FloorTypeDef>
+
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherPrettyBase">
+      <defName>StuffedLeatherWovenLeather</defName>
+      <label>woven floor</label>
+      <description>Leather cleverly woven together so that the seams are not visible</description>
+        <texturePath>Floors/Leather/Woven</texturePath>
+    </StuffedFloors.FloorTypeDef>
+
+
+
+		
+	<TerrainDef ParentName="FloorBase">
+		<defName>StuffedLeatherHumanLeather</defName>
+		<label>human leather</label>
+		<description>A crudely stiched leather floor. Gazing upon it reminds you of your victories.</description>
+		<texturePath>Floors/Leather/HumanLeather</texturePath>
+		<edgeType>Hard</edgeType>
+		<renderPrecedence>70</renderPrecedence>
+		<burnedDef>BurnedLeatherFloor</burnedDef>
+		<statBases>
+			<Flammability>0.1</Flammability>
+			<Beauty>6</Beauty>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<costList>
+			<Leather_Human>7</Leather_Human>
+		</costList>
+		<tags>
+            <li>FineFloor</li>
+        </tags>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</TerrainDef>
+	
+	
+
+
+</Defs>

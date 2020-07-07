@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>More carpet and leather floors</name>
+  <author>Zylle</author>
+  <supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+  </supportedVersions>
+  <packageId>zylle.CarpetLeatherFloor</packageId>
+  <modDependencies>
+    <li>
+        <packageId>fluffy.stuffedfloors</packageId>
+        <displayName>Stuffed Floors</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/853043503</steamWorkshopUrl>
+        <downloadUrl>https://ludeon.com/forums/index.php?topic=16120</downloadUrl>
+    </li>
+  </modDependencies>
+  <description>
+  Requires Fluffy's 'Stuffed Floors' to work.
+  
+  Adds new carpets that can be built out of any cloth or wool, and new leather floors that can be made out of any leather. These floors can be built with modded materials.
+  
+  Adds a human leather floor.
+</description>
+</ModMetaData>

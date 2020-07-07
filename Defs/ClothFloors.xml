@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StuffedFloors.FloorTypeDef ParentName="StuffedCarpetBasicBase">
+      <defName>StuffedCarpetGeneric</defName>
+      <label>carpet</label>
+      <description>A carpet.</description>
+        <texturePath>Terrain/Surfaces/Carpet</texturePath>
+    </StuffedFloors.FloorTypeDef>
+	
+	<StuffedFloors.FloorTypeDef ParentName="StuffedCarpetBasicBase">
+      <defName>StuffedCarpetDiamond</defName>
+      <label>diamond carpet</label>
+      <description>Carpet with a diamond pattern. The sort of thing you find in an office building, or maybe a motel.</description>
+        <texturePath>Floors/Carpet/DiamondCarpet</texturePath>
+    </StuffedFloors.FloorTypeDef>
+	
+	
+	<StuffedFloors.FloorTypeDef ParentName="StuffedCarpetBasicBase">
+      <defName>StuffedCarpetFloral</defName>
+      <label>floral carpet</label>
+      <description>A carpet with a floral design.</description>
+        <texturePath>Floors/Carpet/FloralCarpet</texturePath>
+    </StuffedFloors.FloorTypeDef>
+
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedCarpetPrettyBase">
+      <defName>StuffedCarpetPaisley</defName>
+      <label>paisley carpet</label>
+      <description>A carpet with an intricate paisley design.</description>
+        <texturePath>Floors/Carpet/PaisleyCarpet</texturePath>
+    </StuffedFloors.FloorTypeDef>
+
+
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedCarpetPrettyBase">
+      <defName>StuffedCarpetFancy</defName>
+      <label>fancy carpet</label>
+      <description>A carpet with a fancy trellis design</description>
+        <texturePath>Floors/Carpet/TrellisCarpet</texturePath>
+    </StuffedFloors.FloorTypeDef>
+	
+</Defs>

@@ -51,7 +51,7 @@
             <li>Leathery</li>
         </stuffCategories>
 		<statBases>
-			<Flammability>0.1</Flammability>
+			<Flammability>0</Flammability>
 		</statBases>
 		<obsoletes>
 		

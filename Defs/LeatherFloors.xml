@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-   
+<!-- Basic -->
     <StuffedFloors.FloorTypeDef ParentName="StuffedLeatherBasicBase">
       <defName>StuffedLeatherScrapLeather</defName>
       <label>scrap leather</label>
@@ -15,13 +15,21 @@
         <texturePath>Floors/Leather/PatchedLeather</texturePath>
     </StuffedFloors.FloorTypeDef>
 	
-	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherPrettyBase">
-      <defName>StuffedLeatherSquareLeather</defName>
-      <label>square leather tiles</label>
-      <description>Leather cut into squares and sewn together as tile.</description>
+	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherBasicBase">
+      <defName>StuffedLeatherStitchedSquares</defName>
+      <label>stitched squares</label>
+      <description>Leather cut into squares and sewn together as flooring.</description>
         <texturePath>Floors/Leather/SquareLeather</texturePath>
     </StuffedFloors.FloorTypeDef>
 
+<!-- Pretty -->
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherPrettyBase">
+      <defName>StuffedLeatherSquareLeather</defName>
+      <label>tiles</label>
+      <description>Leather cut and polished into smooth squares, and laid out as tile.</description>
+        <texturePath>Floors/Leather/LeatherTile</texturePath>
+    </StuffedFloors.FloorTypeDef>
 
 	<StuffedFloors.FloorTypeDef ParentName="StuffedLeatherPrettyBase">
       <defName>StuffedLeatherWovenLeather</defName>
